@@ -6,8 +6,8 @@ import Navbar from './Navbar'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 
-const Home = () => {
-  return (
+ReactDOM.render((
+  <Router>
     <div>
       <Navbar />
       <Route exact path="/" component={Home} />
