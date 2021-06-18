@@ -14,10 +14,7 @@ ReactDOM.render((
       <Route exact path="/about" component={About} />
       <Route exact path="/login" component={Login} />
     </div>
-  );
-};
 
-ReactDOM.render(
-  <Home />,
+  </Router>),
   document.getElementById('root')
 );
